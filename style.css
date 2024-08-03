@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    height: 100%;
+  }
+  
+  body {
+    min-height: 100%;
+    background: #eee;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    color: #222;
+    font-size: 14px;
+    line-height: 26px;
+    padding-bottom: 50px;
+  }
+  
+  .container {
+    max-width: 700px;
+    background: #fff;
+    margin: 0px auto;
+    box-shadow: 1px 1px 2px #dad7d7;
+    border-radius: 3px;
+    padding: 40px;
+    margin-top: 50px;
+  }
+  
+  header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 10px 0;
+  }
+  
+  .title {
+    line-height: 32px;
+  }
+  
+  .mycontact {
+    text-align: right;
+  }
+  
+  .box_container h3 {
+    font-size: 16px;
+    padding: 5px 0;
+  }
+  
+  .box_container h4 {
+    font-size: 15px;
+    border: 1px solid #000;
+    width: fit-content;
+    padding: 0 10px;
+    margin: 15px 0;
+  }
+  
+  .role-title {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  
+  .details {
+    max-width: 490px;
+    padding-right: 0;
+  }
+  
+  .role-title h5 {
+    font-size: 13px;
+  }
+  
+  .role-title ul {
+    padding-left: 30px;
+  }
+  
+  .role-title li {
+    font-size: 13px;
+  }
+  
+  .role-title + .role-title {
+    margin-top: 10px;
+  }
+  
